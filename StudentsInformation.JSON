@@ -1,0 +1,11 @@
+[
+  {"name":"Muhsin", "surname":"YAVUZ", "age": 24},
+  {"name":"Ahmet", "surname":"YAVUZ", "age": 12},
+  {"name":"Emin", "surname":"Sezgi", "age": 17},
+  {"name":"Elif", "surname":"Can", "age": 23},
+  {"name":"Ebrar", "surname":"Daralmaz", "age": 21},
+  {"name":"Rabia", "surname":"Özgür", "age": 22},
+  {"name":"Emre", "surname":"Hançer", "age": 26},
+  {"name":"Fatih", "surname":"Aral", "age": 24},
+  {"name":"Sinan", "surname":"Çakıl", "age": 18}
+]
