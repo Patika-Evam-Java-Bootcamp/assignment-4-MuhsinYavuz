@@ -13,18 +13,18 @@ public class Main {
         while(true){
             System.out.println("Yapmak istediğiniz işlemi giriniz .");
             System.out.println("** 'read','write','both','quit' ** ");
-
+            
             String text = scanner.nextLine() ;
             if(text.equals("read")){
-                readThread.run();
+                readThread.run(); // okuma için run başlatıldı 
             }else if(text.equals("write")){
-                writingThread.run();
+                writingThread.run();// yazma için run başlatıldı 
             } else if (text.equals("both")) {
-                readThread.run();
-                writingThread.run();
+                readThread.run();// okuma için run başlatıldı 
+                writingThread.run();// yazma için run başlatıldı 
             }else if(text.equals("quit")){
                 System.out.println("Çıkış yapıldı.");
-                break ;
+                break ; // döngü bitti . 
             }
             else {
                 System.out.println("Geçersiz değer .");
